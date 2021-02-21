@@ -62,6 +62,7 @@ def informacoes(request):
         'sangue': sangue,
         'vacinas': vacinas,
     }
+    print(avaliacao_diaria)
     
     return render(request, "informacoes.html", data)
 
